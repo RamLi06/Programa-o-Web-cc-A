@@ -1,9 +1,47 @@
-
-
-#title {
-    color: cornflowerblue;
-    text-align: center;
+* {
+   margin: 0;
+   border: 0; 
 }
 
-.form {color: black}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(peido/mole.png);
+    background-size: 50%;
+    background-position: 0%
+    
 
+}
+
+#title {
+    color: rgb(25, 95, 66);
+    text-align: center;
+    
+}
+
+.forms input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(26, 49, 30);
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:5px; 
+    
+}
+
+.h1{
+
+}
+
+.footer {
+    color: aliceblue;
+}
